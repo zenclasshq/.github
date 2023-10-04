@@ -8,6 +8,8 @@ We're an adaptive learning platform that want give powerful to educators:
 - Adapt with any teaching methodology (Teach in your way)
 
 ## ZenKlass technology:
+
+
 ### Our Server
 
 We want our server should be fast and safe (`confident`) but it also easy to develop (`development velocity`). So, we choose
@@ -18,7 +20,7 @@ We want our server should be fast and safe (`confident`) but it also easy to dev
   - `diesel-rs` -> work with db and control migration flow with our db.
 - Concurrency: `actix` (Actor Model) -> Use resources in an effeciency way.
 
-### Our Clients
+### Our Website and Mobile
 
 We believe that "client changes faster than server side" like change UI-UX, change system design, etc. So, community is the biggest factor that we choose the technology.
 
