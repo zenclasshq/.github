@@ -1,38 +1,30 @@
-# ZenKlass (ZenClass) Engineering - Hi 👋
+# ZenClass Engineering - Hi 👋
 
-Hi everyone, I'm [Rodgers](https://github.com/cptrodgers) (CTO and co-founder) of ZenKlass.
+Hi everyone, I’m Rodgers, the CTO and co-founder of ZenKlass.
 
-We're an adaptive learning platform that want give powerful to educators:
-- Super easy to use.
-- Streamline teaching experience (Educator - Learner Connection is our focus)
-- Adapt with any teaching methodology (Teach in your way)
+We’re an adaptive learning platform that empowers educators with a super easy-to-use interface. Our platform streamlines the teaching experience by focusing on the educator-learner connection. We believe that every educator has their own unique teaching methodology, and that’s why we’ve made ZenKlass adaptable to any teaching style. Teach in your way with ZenKlass!
 
-## ZenKlass technology:
+## ZenKlass System:
 
-
-### Our Server
-
-We want our server should be fast and safe (`confident`) but it also easy to develop (`development velocity`). So, we choose
+### Our back
+We want our server to be safe and efficient while also being easy to develop. To achieve this, we have chosen the following technologies:
 
 - Base: `Rust`, `Postgres`, `Redis`.
-- We hide the complexity of rust by using:
-  - `async-graphql` -> Declare interface for client in easy way.
-  - `diesel-rs` -> work with db and control migration flow with our db.
-- Concurrency: `actix` (Actor Model) -> Use resources in an effeciency way.
+- We use `async-graphql` to declare interfaces for clients in an easy way, and `diesel-rs` to work with the database and control migration flow.
+- For concurrency, we use `actix` (Actor Model) to use resources efficiently.
 
-### Our Website and Mobile
 
-We believe that "client changes faster than server side" like change UI-UX, change system design, etc. So, community is the biggest factor that we choose the technology.
+### Our front
+
+We believe that the client changes faster than the server-side, such as changes to UI-UX, system design, and more. Therefore, we have chosen the following technologies based on community support:
 
 - Website: `ReactJs`, `NextJs`
 - Mobile: `React Native`
 
-## ZenKlass Engineering People
+## Team
 We're a small and lean team - young and talented engineers.
 
-## Love us?
-- Website: https://zenklass.com
+## Love us ?
+- Website: https://zenclass.co
 - Linkedin: https://www.linkedin.com/company/zenklass/
 - Email: rodgers@zenklass.com
-
-Thanks.
